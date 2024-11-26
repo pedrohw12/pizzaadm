@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza App</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="app-lista" id="applista">
+    <div class="superior" id="listaPizzas">
+      <h2>Lista de Pizzas Cadastradas</h2>
+      <div id="pizzaList"></div>
+    </div>
+    <div class="inferior">
+      <button class="botao-novo" id="btnNovo">Adicionar Nova Pizza</button>
+    </div>
+  </div>
+
+  <div class="app-cadastro" id="appcadastro" style="display: none;">
+    <div class="imagem" id="imagem"></div>
+    <div class="form">
+      <div class="form-linha">
+        <div class="form-linha-esq">Pizza:</div>
+        <div class="form-linha-dir">
+          <input type="text" id="pizza">
+        </div>
+      </div>
+      <div class="form-linha">
+        <div class="form-linha-esq">Preço:</div>
+        <div class="form-linha-dir">
+          <input type="text" id="preco">
+        </div>
+      </div>
+    </div>
+    <div class="botoes">
+      <button class="botao" id="btnFoto">Foto</button>
+      <button class="botao" id="btnSalvar">Salvar</button>
+      <button class="botao" id="btnExcluir">Excluir</button>
+      <button class="botao" id="btnCancelar">Cancelar</button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
